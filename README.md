@@ -10,7 +10,6 @@ Github Action for updating .pot
 ### Example usage
 
 ```shell
-
 name: "Translation"
 
 on:
