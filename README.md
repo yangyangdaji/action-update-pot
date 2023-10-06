@@ -47,14 +47,14 @@ jobs:
 
 You must also provide an `GITHUB_TOKEN` in `env`
 
-| Name               | Description                                                               | Default            | Required |
-| ------------------ | ------------------------------------------------------------------------- | ------------------ | -------- |
-| `destination_path` | Destination path to save generated .pot file                              | `/po`              | false    |
-| `slug`             | Project slug. Defaults to the Github repository name.                     | $GITHUB_REPOSITORY | false    |
-| `text_domain`      | Text domain to look for in the source code. Defaults to the project slug. | `slug`               | false    |
-| `author`           | Replace "FIRST AUTHOR <EMAIL@ADDRESS>"'                                   |                    | false    |
-| `commiter`           |    Setting committer                          | `github-actions[bot]`              | false
-| `commiter_email`           |   Setting committer email                           | `41898282+github-actions[bot]@users.noreply.github.com`              | false
-| `title`            | Replace "SOME DESCRIPTIVE TITLE."'                                        |                    | false    |
-| `copyright`        | Replace "YEAR THE PACKAGE S COPYRIGHT HOLDER"'                            |                    | false    |
-| `license`          | Replace "same license as the PACKAGE package"'                            |                    | False    |
+| Name               | Description                                                               | Default                                                 | Required |
+|--------------------|---------------------------------------------------------------------------|---------------------------------------------------------|----------|
+| `destination_path` | Destination path to save generated .pot file                              | `/po`                                                   | false    |
+| `slug`             | Project slug. Defaults to the Github repository name.                     | $GITHUB_REPOSITORY                                      | false    |
+| `text_domain`      | Text domain to look for in the source code. Defaults to the project slug. | `slug`                                                  | false    |
+| `author`           | Replace "FIRST AUTHOR <EMAIL@ADDRESS>"'                                   |                                                         | false    |
+| `commiter`         | Setting committer                                                         | `github-actions[bot]`                                   | false    |
+| `commiter_email`   | Setting committer email                                                   | `41898282+github-actions[bot]@users.noreply.github.com` | false    |
+| `title`            | Replace "SOME DESCRIPTIVE TITLE."'                                        |                                                         | false    |
+| `copyright`        | Replace "YEAR THE PACKAGE S COPYRIGHT HOLDER"'                            |                                                         | false    |
+| `license`          | Replace "same license as the PACKAGE package"'                            |                                                         | False    |
