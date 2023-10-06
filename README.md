@@ -12,6 +12,8 @@ Github Action for updating .pot
 ```shell
 
 name: "Translation"
+
+on:
   push:
     branches: [ "main" ]
   pull_request:
