@@ -10,9 +10,8 @@ Github Action for updating .pot
 ### Example usage
 
 ```shell
-name: "Translation"
 
-on:
+name: "Translation"
   push:
     branches: [ "main" ]
   pull_request:
@@ -27,18 +26,19 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Update .pot
-        uses: AdwCustomizerTeam/action-update-pot@main
+        uses: GradienceTeam/action-update-pot@main
         with:
-          title: "Adwaita Manager POT file"
-          copyright: "Adwaita Manager Team"
+          title: "Gradience POT file"
+          copyright: "Gradience Team"
           license: "GNU GPLv3"
-          author: "Adwaita Manager Team"
+          author: "Gradience Team"
+          commiter: "Gradience Bot"
+          commiter_email: "AdwCustomizerTeam@proton.me"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 ```
 
 ### Parameters
