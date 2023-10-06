@@ -40,6 +40,7 @@ jobs:
           commiter_email: "AdwCustomizerTeam@proton.me"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 ```
 
 ### Parameters
